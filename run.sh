@@ -44,7 +44,7 @@ sudo docker exec ${cid} mpirun \
     mpi_hello_world > mpirun.out
 
 
-sleep 9999
+#sleep 9999
 # STOP CONTAINER:
 # (Running on the first node)
 sudo docker stop ${cid}                                                                                                                                             
